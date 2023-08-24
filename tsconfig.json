@@ -1,0 +1,30 @@
+{
+
+    "compilerOptions": {
+        // modules
+        "baseUrl": "./",
+        "resolveJsonModule": true,
+        "rootDirs": [
+            "./src",
+            "./test"
+        ],
+        "typeRoots": [
+            "./node_modules/@types",
+            "./types"
+        ],
+        "incremental": true,
+        // emit
+        "declaration": true,
+        "declarationMap": true,
+        "downlevelIteration": true,
+        "importHelpers": false,
+        "outDir": "./dist",
+        "removeComments": true,
+        "sourceMap": true,
+        // Language and Environment
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        // type checking
+        "noFallthroughCasesInSwitch": false
+    }
+}

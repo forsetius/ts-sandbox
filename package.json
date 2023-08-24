@@ -1,0 +1,33 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox environment for TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --quiet --cls --transpile-only ./src/index.ts",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [
+    "sandbox",
+    "test",
+    "typescript",
+    "ts"
+  ],
+  "author": "Marcin Forseti Paździora",
+  "license": "ISC",
+  "eslintIgnore": [
+    "dist/",
+    "logs/"
+  ],
+
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@tsconfig/strictest": "^2.0.1",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
+    "eslint": "^8.47.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  }
+}
